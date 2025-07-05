@@ -1,0 +1,433 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Source Sans Pro, Roboto, sans-serif;
+}
+.section1 {
+  width: 100%;
+}
+.div1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+}
+.div1 h1 {
+  font-size: 1rem;
+  padding: 10px;
+  border: 0.1px solid;
+  width: 35%;
+  text-align: center;
+}
+.div2 {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5dvh 10dvh;
+}
+.menubar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.menubar ul {
+  text-align: center;
+  display: flex;
+}
+.menubar a {
+  text-decoration: none;
+  padding: 0 1.5rem;
+  list-style: none;
+}
+
+.searchicon {
+  display: flex;
+  width: 20%;
+}
+.Q12 {
+  font-size: 1.5rem;
+  margin: 0 0.3rem;
+  border: none;
+  background: none;
+}
+.Q12:hover {
+  color: gold;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.cardtext1 {
+  margin-left: 15rem;
+}
+.cardtext1 h2 {
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  width: 60dvh;
+}
+.cardtext1 p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.BTN {
+  border: 1px solid #f86d72;
+  border-radius: 30rem;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  background-color: #f86d72;
+}
+.BNT:hover {
+  border: 1px solid #000000;
+  background-color: #000000;
+}
+.image {
+  margin-right: 16rem;
+  display: flex;
+}
+.BTN,
+.A12 {
+  margin: 0 20rem;
+}
+
+.backg {
+  background-image: url("https://img.freepik.com/premium-photo/wallpaper-background-softveil-red-blue-white_567739-9171.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image */
+}
+.backg {
+  display: flex;
+  overflow-x: auto;
+  max-height: 45rem;
+  border: 1px solid gainsboro;
+}
+
+.page2 {
+  height: 100dvh;
+}
+.divpage2 {
+  align-items: center;
+  height: 7vh;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.divpage2 h2 {
+  font-size: 2rem;
+}
+.BNT {
+  font-size: 1rem;
+  padding: 1rem 2.5rem;
+  border-radius: 50vh;
+  background-color: rgb(248, 109, 114);
+  border: none;
+  color: white;
+}
+.BTN:hover {
+  background-color: #000000;
+}
+.div2page2 {
+  max-height: 35rem;
+  border: 1px solid gainsboro;
+  overflow-x: auto;
+  display: flex;
+  margin: 0 4rem;
+}
+.div2page2::-webkit-scrollbar {
+  width: 0;
+}
+
+.cardpage2 {
+  padding: 3vh 3rem;
+  border: 1px solid #e3e3e3;
+  border-radius: 2vh;
+
+  width: 34vh;
+}
+.cardpage2 img {
+  height: 40vh;
+}
+.booksell {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 15rem;
+}
+.payment div {
+  width: 30vh;
+  padding: 0 1rem;
+}
+.payment {
+  display: flex;
+  margin: 7rem 2rem;
+}
+.fa-solid {
+  font-size: 2rem;
+  color: #f61920;
+}
+.Page3 {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 7.5rem 0;
+  align-items: center;
+}
+.Discount {
+  align-items: start;
+  width: 70vh;
+}
+.Discount h3 {
+  font-size: 4.5rem;
+  width: 70vh;
+}
+.section-page3 {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230818/pngtree-blue-background-high-resolution-images-free-vector-image_13093708.jpg);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center;
+}
+#Button1 {
+  margin-top: 1.5rem;
+  font-size: 3vh;
+  padding: 1rem 2rem;
+  color: #e3e3e3;
+  border-radius: 30vh;
+  background-color: rgb(248, 109, 114);
+}
+#Button1:hover {
+  background-color: #000000;
+}
+.Page3 img {
+  height: 70vh;
+}
+
+/* for Page 4*/
+.play {
+  height: 120vh;
+}
+.Page4 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.FeatureP4 {
+  width: 40vh;
+  height: 70vh;
+  border-radius: 20px;
+  border: 1px solid rgb(227, 227, 227);
+  margin: 2rem 1rem;
+  flex-grow: 1;
+  flex-basis: 200;
+}
+.h3page4 {
+  margin: 2rem 1rem;
+  font-size: 2rem;
+}
+.imagepage4 {
+  height: 13vh;
+}
+.bookpage4 {
+  padding: 1rem;
+  margin: 1rem 0;
+  display: flex;
+  border-top: 1px solid rgb(227, 227, 227);
+}
+
+.text12 {
+  margin: 1rem 1rem;
+}
+
+.text12 p {
+  margin-top: 1rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #f61920;
+  margin-top: 1rem;
+}
+.textgray {
+  color: rgb(146, 141, 141);
+}
+.categary {
+  display: flex;
+  padding: 0 2rem;
+}
+.categary button {
+  display: flex;
+  margin: 0 2rem;
+}
+.categary img {
+  height: 25vh;
+}
+.h5page4 {
+  font-size: 3vh;
+  margin: 1rem 10rem;
+}
+.imagecategory {
+  display: flex;
+  justify-content: center;
+}
+.page5 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/039/648/125/small/modern-colorful-gradient-background-with-wave-lines-vector.jpg);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center;
+}
+.divpage5 {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+
+  width: 110vh; /* Viewport width */
+  height: 35vh;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.divpage5::-webkit-scrollbar {
+  display: none;
+}
+
+.cardpage5 {
+  flex: 0 0 110vh; /* Each card fills one view */
+  scroll-snap-align: start;
+  background-color: #fffcfc;
+  padding: 6vh;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.textpage5 {
+  font-size: 2.5vh;
+}
+.cardpage5 h5 {
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+.A100 {
+  font-size: 4rem;
+  padding: 40px 20px;
+}
+.page7 {
+  height: 100dvh;
+  align-content: center;
+}
+
+.imagecardpage7 {
+  display: flex;
+  justify-content: space-around;
+
+  height: 70vh;
+}
+.cardpage7 {
+  width: 40vh;
+}
+.cardpage7 img {
+  height: 30vh;
+  margin: 1rem 0;
+}
+.cardpage7 p,
+a {
+  font-size: large;
+  margin: 1rem 0;
+}
+.textpage7 {
+  display: flex;
+  justify-content: space-between;
+}
+.divpage7 {
+  height: 15dvh;
+
+  align-content: center;
+  margin: 0 20rem;
+}
+.textpage7 h4 {
+  font-size: 2rem;
+}
+.textpage7 button {
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  border-radius: 20px;
+  border: none;
+  background-color: #f61920;
+}
+.textpage7 button:hover {
+  background-color: #e3e3e3;
+  color: #000000;
+}
+.IMAGEpage7 img {
+  height: 30vh;
+  padding: 0 5px;
+}
+.PAGE7IMG1 {
+  margin: 10vh 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Insta {
+  font-size: 2rem;
+}
+.page8 {
+  height: 100dvh;
+}
+.lastweb1 {
+  display: flex;
+
+  height: 50vh;
+  margin: 20vh 0 0 0;
+}
+.cardpage8 {
+  width: 50vh;
+
+  padding: 0 3rem;
+}
+.cardpage8 h1 {
+  font-size: 2rem;
+}
+.cardpage8 p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+.cardpage8 li {
+  font-size: 1.3rem;
+  display: flex;
+  list-style: none;
+}
+.cardpage8 a {
+  text-decoration: none;
+}
+.aaaaaaaa {
+  font-size: 1.5rem;
+}
+.pppp {
+  margin: 1.5rem 0;
+}
+.fa-brands {
+  font-size: 2rem;
+  padding: 0 10px;
+}
+.classfa-brands {
+  margin: 3rem 0;
+}
