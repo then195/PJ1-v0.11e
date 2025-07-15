@@ -222,15 +222,14 @@ body {
 .Page4 {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .FeatureP4 {
   width: 40vh;
-  height: 70vh;
+
   border-radius: 20px;
   border: 1px solid rgb(227, 227, 227);
   margin: 2rem 1rem;
-  flex-grow: 1;
-  flex-basis: 200;
 }
 .h3page4 {
   margin: 2rem 1rem;
@@ -377,7 +376,7 @@ a {
   color: #000000;
 }
 .IMAGEpage7 img {
-  height: 28vh;
+  height: 26vh;
   padding: 0 5px;
 }
 .PAGE7IMG1 {
@@ -515,18 +514,146 @@ a {
   .div2page2 {
     margin: 0;
   }
+  .section-page3 {
+    height: 60vh;
+  }
   .Page3 {
+    display: flex;
     flex-direction: column;
+    height: 40vh;
   }
   .Page3 img {
-    height: 20vh;
+    height: 30vh;
   }
   .Discount {
     display: flex;
-    justify-content: center;
-    background-color: #f61920;
+    width: 40vh;
+    justify-content: space-around;
   }
   .Discount h3 {
     font-size: 1rem;
+  }
+  #Button1 {
+    font-size: 0.7rem;
+    margin: 0;
+  }
+  .FeatureP4 {
+    width: 19vh;
+
+    display: flex;
+
+    margin: 1px;
+  }
+  .imagepage4 {
+    display: flex;
+    height: 10vh;
+  }
+  .imagepage4 {
+    height: 12vh;
+    padding: 0;
+    margin: 0;
+  }
+  .bookpage4 {
+    padding: 0;
+    margin: 0;
+  }
+  .play {
+    height: 210vh;
+  }
+  .price {
+    font-size: 1rem;
+
+    margin-top: 0;
+  }
+  .divpage5 {
+    width: 45vh;
+    height: 50vh;
+  }
+  .cardpage5 {
+    flex: 0 0 420px; /* Each card fills one view */
+
+    padding: 3vh;
+  }
+  .A100 {
+    font-size: 2rem;
+  }
+  .page5 {
+    height: 60vh;
+  }
+  .imagecategory {
+    flex-wrap: wrap;
+    height: 80vh;
+  }
+  .categary {
+    padding: 0;
+    margin: 0;
+  }
+  .categary img {
+    height: 20vh;
+  }
+  .divpage7 {
+    height: 15dvh;
+    margin: 0;
+  }
+  .imagecardpage7 {
+    flex-wrap: wrap;
+  }
+  .page7 {
+    height: 120dvh;
+  }
+  .cardpage7 {
+    width: 20vh;
+  }
+  .cardpage7 img {
+    height: 12vh;
+    margin: 0;
+  }
+  .IMAGEpage7 img {
+    height: 15vh;
+    padding: 0px;
+  }
+  .PAGE7IMG1 {
+    margin: 0;
+  }
+  .lastweb1 {
+    height: 50vh;
+    margin: 0;
+  }
+  .page8 {
+    height: 190vh;
+  }
+  .lastweb1 {
+    flex-wrap: wrap;
+  }
+  .cardpage8 {
+    width: 100vh;
+
+    padding: 0 3rem;
+  }
+  #playpage8 {
+    width: 23vh;
+  }
+  .cardpage8 h1 {
+    font-size: 1.2rem;
+  }
+  .cardpage8 p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+  s .aaaaaaaa {
+    font-size: 1.5rem;
+  }
+  .pppp {
+    margin: 0;
+  }
+  .fa-brands {
+    font-size: 2rem;
+    padding: 0 10px;
+  }
+  .classfa-brands {
+    margin: 2rem 0;
+  }
+  .cardpage8 ul {
+    line-height: 1;
   }
 }
